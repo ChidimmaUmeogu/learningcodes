@@ -1,0 +1,73 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background-image:url(../image/online-survey-icon-linear-vector.jpg);
+    background-position: center top;
+    background-size: cover;
+    color: white;
+    font-family: Garamond, Tahoma;
+    font-size: 16px;    
+}
+
+h1,
+p {
+    margin: 1em auto;
+    text-align: center;
+    font-size: 40px;
+}
+
+.Description {
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+form {
+    width: auto;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0em auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    background-color: #01011b;
+}
+
+label {
+    display: block;
+    margin: 1rem 0;
+    padding: 1em auto;
+       
+}
+
+input, textarea
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;    
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+input[type="checkbox"] {
+    display: inline;
+    width: unset;
+    margin: 0.2em auto;
+    vertical-align: middle; 
+}
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+}
