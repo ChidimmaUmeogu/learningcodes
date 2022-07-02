@@ -1,0 +1,106 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif
+        /*fonts with space eg open sans must be wrapped in quotes ''*/
+}
+
+.label {
+    border: 2px solid black;
+    width: 270px;
+    margin: 20px auto;
+    padding: 0 7px;
+}
+
+* {
+    box-sizing: border-box;
+    /*this '*' selector affects all elements*/
+}
+
+header h1 {
+    text-align: center;
+    margin: -4px 0;
+    /*-4px = top & bottom; 0 =left and right*/
+    letter-spacing: 0.15px;
+    /*The letter-spacing property can be used to 
+    adjust the space between each character of text in an element.*/
+}
+
+.bold {
+    font-weight: 800;
+    /*makes font bolder*/
+}
+
+p {
+    margin: 0px;
+    /*removes margin*/
+}
+
+.divider {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+    /*2px= T&B; 0= L&R*/
+    clear: right;
+    /*This will clear the float property, 
+    pushing the divider and any following content down below the float text.*/
+}
+
+/*The float property is used to place an element on the left or right of its container, 
+allowing other content (such as text) to wrap around it.
+
+Create a new .right selector and set the float property to right.*/
+.right {
+    float: right;
+}
+
+.lg {
+    height: 10px;
+}
+
+.lg,
+.md {
+    background-color: black;
+    border: 0;
+}
+
+/*The rem unit stands for root em, and is relative to the font size of the html element
+font-size of 0.85rem, which would calculate to be roughly 13.6px*/
+.sm-text {
+    font-size: 0.85rem;
+}
+
+.calories-info h1 {
+    margin: -5px -2px;
+}
+
+.calories-info span {
+    font-size: 1.2em;
+    overflow: hidden;
+    margin-top: -7px;
+}
+
+.md {
+    height: 5px;
+}
+
+.indent {
+    margin-left: 1em;
+}
+
+/*:not(.no-divider) removes unwanted dividers added by the .divider*/
+.daily-value p:not(.no-divider) {
+    border-bottom: 1px solid #888989
+}
+
+.dbl-indent {
+    margin-left: 2em;
+}
+
+.note {
+    font-size: 0.6rem;
+    margin: 5px 0;
+    padding: 0 8px;
+    text-indent: -8px;
+}
