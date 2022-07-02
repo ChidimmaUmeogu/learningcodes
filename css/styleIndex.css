@@ -7,5 +7,21 @@ body {
     background-size: cover;
     color: white;
     font-family: Garamond, Tahoma;
-    font-size: 16px;    
+    font-size: 35px;    
+}
+h2, p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: black;
+}
+.red{
+    color:blue
+}
+.under{
+    color:blueviolet;
+    font-size: 1.8rem;
+}
+.divider{
+    border-bottom: 4px solid black;
+    margin: 2px 0;
 }
