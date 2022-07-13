@@ -26,6 +26,12 @@ fieldset {
     border: none;
     padding: 2rem 0;
 }
+/*The border of the last fieldset element looks a little out of place. 
+You can select the last element of a specific type using the last-of-type 
+CSS pseudo-class, like this: p:last-of-type { }*/
+fieldset:last-of-type {
+    border-bottom: none;
+}
 
 fieldset:not(:last-of-type) {
     border-bottom: 3px solid #3b3b4f;
@@ -48,7 +54,7 @@ input,
 textarea {
     background-color: #0a0a23;
     border: 1px solid #0a0a23;
-    color: #ffffff;    
+    color: #ffffff;
 }
 
 .inline {
