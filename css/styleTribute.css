@@ -53,6 +53,12 @@ h3{
    font-weight: lighter;
    font-family: 'Segoe UI';
 }
+p, p > a{
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(64, 37, 186);
+    font-style: italic;
+}
 ul > li{
     display: block;
     text-align: unset;
